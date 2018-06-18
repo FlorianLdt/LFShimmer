@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1734FADD20D80FCD00710D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734FADC20D80FCD00710D42 /* AppDelegate.swift */; };
+		1734FADF20D80FCD00710D42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734FADE20D80FCD00710D42 /* ViewController.swift */; };
+		1734FAE220D80FCD00710D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1734FAE020D80FCD00710D42 /* Main.storyboard */; };
+		1734FAE420D80FCE00710D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1734FAE320D80FCE00710D42 /* Assets.xcassets */; };
+		1734FAE720D80FCE00710D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1734FAE520D80FCE00710D42 /* LaunchScreen.storyboard */; };
+		1734FAF220D80FCF00710D42 /* FacebookShimmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734FAF120D80FCF00710D42 /* FacebookShimmerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1734FAEE20D80FCF00710D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1734FAD120D80FCD00710D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1734FAD820D80FCD00710D42;
+			remoteInfo = FacebookShimmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1734FAD920D80FCD00710D42 /* FacebookShimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookShimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1734FADC20D80FCD00710D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1734FADE20D80FCD00710D42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1734FAE120D80FCD00710D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1734FAE320D80FCE00710D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1734FAE620D80FCE00710D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1734FAE820D80FCE00710D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1734FAED20D80FCF00710D42 /* FacebookShimmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookShimmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1734FAF120D80FCF00710D42 /* FacebookShimmerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookShimmerTests.swift; sourceTree = "<group>"; };
+		1734FAF320D80FCF00710D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1734FAD620D80FCD00710D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1734FAEA20D80FCF00710D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1734FAD020D80FCD00710D42 = {
+			isa = PBXGroup;
+			children = (
+				1734FADB20D80FCD00710D42 /* FacebookShimmer */,
+				1734FAF020D80FCF00710D42 /* FacebookShimmerTests */,
+				1734FADA20D80FCD00710D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1734FADA20D80FCD00710D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1734FAD920D80FCD00710D42 /* FacebookShimmer.app */,
+				1734FAED20D80FCF00710D42 /* FacebookShimmerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1734FADB20D80FCD00710D42 /* FacebookShimmer */ = {
+			isa = PBXGroup;
+			children = (
+				1734FADC20D80FCD00710D42 /* AppDelegate.swift */,
+				1734FADE20D80FCD00710D42 /* ViewController.swift */,
+				1734FAE020D80FCD00710D42 /* Main.storyboard */,
+				1734FAE320D80FCE00710D42 /* Assets.xcassets */,
+				1734FAE520D80FCE00710D42 /* LaunchScreen.storyboard */,
+				1734FAE820D80FCE00710D42 /* Info.plist */,
+			);
+			path = FacebookShimmer;
+			sourceTree = "<group>";
+		};
+		1734FAF020D80FCF00710D42 /* FacebookShimmerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1734FAF120D80FCF00710D42 /* FacebookShimmerTests.swift */,
+				1734FAF320D80FCF00710D42 /* Info.plist */,
+			);
+			path = FacebookShimmerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1734FAD820D80FCD00710D42 /* FacebookShimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1734FAF620D80FCF00710D42 /* Build configuration list for PBXNativeTarget "FacebookShimmer" */;
+			buildPhases = (
+				1734FAD520D80FCD00710D42 /* Sources */,
+				1734FAD620D80FCD00710D42 /* Frameworks */,
+				1734FAD720D80FCD00710D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookShimmer;
+			productName = FacebookShimmer;
+			productReference = 1734FAD920D80FCD00710D42 /* FacebookShimmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1734FAEC20D80FCF00710D42 /* FacebookShimmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1734FAF920D80FCF00710D42 /* Build configuration list for PBXNativeTarget "FacebookShimmerTests" */;
+			buildPhases = (
+				1734FAE920D80FCF00710D42 /* Sources */,
+				1734FAEA20D80FCF00710D42 /* Frameworks */,
+				1734FAEB20D80FCF00710D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1734FAEF20D80FCF00710D42 /* PBXTargetDependency */,
+			);
+			name = FacebookShimmerTests;
+			productName = FacebookShimmerTests;
+			productReference = 1734FAED20D80FCF00710D42 /* FacebookShimmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1734FAD120D80FCD00710D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Florian LUDOT";
+				TargetAttributes = {
+					1734FAD820D80FCD00710D42 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1734FAEC20D80FCF00710D42 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1734FAD820D80FCD00710D42;
+					};
+				};
+			};
+			buildConfigurationList = 1734FAD420D80FCD00710D42 /* Build configuration list for PBXProject "FacebookShimmer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1734FAD020D80FCD00710D42;
+			productRefGroup = 1734FADA20D80FCD00710D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1734FAD820D80FCD00710D42 /* FacebookShimmer */,
+				1734FAEC20D80FCF00710D42 /* FacebookShimmerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1734FAD720D80FCD00710D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1734FAE720D80FCE00710D42 /* LaunchScreen.storyboard in Resources */,
+				1734FAE420D80FCE00710D42 /* Assets.xcassets in Resources */,
+				1734FAE220D80FCD00710D42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1734FAEB20D80FCF00710D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1734FAD520D80FCD00710D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1734FADF20D80FCD00710D42 /* ViewController.swift in Sources */,
+				1734FADD20D80FCD00710D42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1734FAE920D80FCF00710D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1734FAF220D80FCF00710D42 /* FacebookShimmerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1734FAEF20D80FCF00710D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1734FAD820D80FCD00710D42 /* FacebookShimmer */;
+			targetProxy = 1734FAEE20D80FCF00710D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1734FAE020D80FCD00710D42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1734FAE120D80FCD00710D42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1734FAE520D80FCE00710D42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1734FAE620D80FCE00710D42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1734FAF420D80FCF00710D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1734FAF520D80FCF00710D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1734FAF720D80FCF00710D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9WD5WHKFJ;
+				INFOPLIST_FILE = FacebookShimmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.lamen.FacebookShimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1734FAF820D80FCF00710D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9WD5WHKFJ;
+				INFOPLIST_FILE = FacebookShimmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.lamen.FacebookShimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1734FAFA20D80FCF00710D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9WD5WHKFJ;
+				INFOPLIST_FILE = FacebookShimmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.lamen.FacebookShimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookShimmer.app/FacebookShimmer";
+			};
+			name = Debug;
+		};
+		1734FAFB20D80FCF00710D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9WD5WHKFJ;
+				INFOPLIST_FILE = FacebookShimmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.lamen.FacebookShimmerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookShimmer.app/FacebookShimmer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1734FAD420D80FCD00710D42 /* Build configuration list for PBXProject "FacebookShimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1734FAF420D80FCF00710D42 /* Debug */,
+				1734FAF520D80FCF00710D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1734FAF620D80FCF00710D42 /* Build configuration list for PBXNativeTarget "FacebookShimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1734FAF720D80FCF00710D42 /* Debug */,
+				1734FAF820D80FCF00710D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1734FAF920D80FCF00710D42 /* Build configuration list for PBXNativeTarget "FacebookShimmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1734FAFA20D80FCF00710D42 /* Debug */,
+				1734FAFB20D80FCF00710D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1734FAD120D80FCD00710D42 /* Project object */;
+}
