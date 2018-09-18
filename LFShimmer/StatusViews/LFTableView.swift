@@ -1,6 +1,6 @@
 //
 //  LFTableView.swift
-//  FacebookShimmer
+//  LFShimmer
 //
 //  Created by Florian LUDOT on 6/21/18.
 //  Copyright © 2018 Florian LUDOT. All rights reserved.
