@@ -1,0 +1,26 @@
+{
+    "code": 200,
+	"posts": [
+		{
+			"id": "e0c31fe2-a906-411f-87d6-73303e18b379",
+			"avatar": "https://images.unsplash.com/profile-1511488462518-7a77070100c6?dpr=2&auto=format&fit=crop&w=64&h=64&q=60&cs=tinysrgb&crop=faces&bg=fff",
+			"title": "Three White Pelicans",
+			"subtitle": "by Dulcey Lima (@dulceylima)",
+			"content": "https://images.unsplash.com/photo-1511414383630-c624b4679b47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bc60d8997dd4514da4a1141e9afad27e&auto=format&fit=crop&w=2541&q=80"
+		},
+		{
+			"id": "9c8fc7a5-c87f-4d23-a02d-7c9b7bd20c9c",
+			"avatar": "https://images.unsplash.com/profile-fb-1505917662-ff380960dae9.jpg?dpr=2&auto=format&fit=crop&w=64&h=64&q=60&cs=tinysrgb&crop=faces&bg=fff",
+			"title": "Foggy Forrest",
+			"subtitle": "by Joep Cox (@joep_cox)",
+			"content": "https://images.unsplash.com/photo-1513705675064-a5f6eb1ee1a6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f98593f7313c363e0060cf6e0e2ac049&auto=format&fit=crop&w=2800&q=80"
+		},
+		{
+			"id": "3b80710a-0f61-42ed-b370-e257acebddc1",
+			"avatar": "https://images.unsplash.com/profile-1518033084647-2a6c0d0e171c?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&cs=tinysrgb&crop=faces&bg=fff",
+			"title": "Happy moment",
+			"subtitle": "by Aziz Acharki (@acharki95)",
+			"content": "https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1a117c92ca0030b584bfd26c70bc659&auto=format&fit=crop&w=2575&q=80"
+		}
+	]
+}
